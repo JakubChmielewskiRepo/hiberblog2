@@ -1,0 +1,197 @@
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=email], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.signupbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.addButton {
+    padding: 10px 15px;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+  }
+  
+  .addButton:hover {background-color: #3e8e41}
+  
+  .addButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  .deleteButton {
+    padding: 10px 15px;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(166, 35, 46);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+  }
+  
+  .deleteButton:hover {background-color: #7d1515}
+  
+  .deleteButton:active {
+    background-color: #7d1515;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .modButton {
+    padding: 10px 15px;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(180, 172, 20);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+  }
+  
+  .modButton:hover {background-color: #938707}
+  
+  .modButton:active {
+    background-color: #938707;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .searchInput {
+    width: 200px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .wypelniacz
+{
+	min-height: 100%;
+    min-height: 100vh;
+    min-width: 100%;
+    min-width: 100vh;
+	display: flex;
+  align-items: center;
+}
+ .inputTitle
+{
+    width: 500px;
+   
+}
+.inputText
+{
+    width: 500px;
+} 
+.tlo
+{
+    background-image: url("natura1.jpg");
+  background-size: cover;
+}
+.tlo2
+{
+    background-image: url("natura2.jpg");
+  background-size: cover;
+}
+.tlo3
+{
+    background-image: url("natura3.jpg");
+  background-size: cover;
+}
+.img1 { background-image: url("natura1.jpg"); }
+.img2 { background-image: url("natura2.jpg"); }
+.img3 { background-image: url("natura3.jpg"); }
+.img4 { background-image: url("natura4.jpg"); }
+.img5 { background-image: url("natura5.jpg"); }
+.img6 { background-image: url("natura6.jpg"); }
+.wypelniacz2
+{
+	min-height: 100%;
+    min-height: 100vh;
+    min-width: 100%;
+    min-width: 100vh;
+	display: flex;
+  /* align-items: center; */
+}
+  
