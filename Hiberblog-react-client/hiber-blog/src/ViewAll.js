@@ -15,7 +15,7 @@ articles: []
     }
     
     componentDidMount() {
-        fetch('https://hiberblog-api.herokuapp.com/all')
+        fetch('http://hiberblogapi3-route-labproj19.apps.cp4apps.cloudpak.site/all')
             .then(response => response.json())
             .then(articles => {
                 console.log(articles)

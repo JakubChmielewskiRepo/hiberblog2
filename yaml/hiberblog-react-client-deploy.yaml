@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: hiberblog-react-client-deploy
+  name: hiberblog-react-client-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hiberblog-react-client-deploy
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: hiberblog-react-client-deploy
+    spec:
+      containers:
+      - image: image-registry.openshift-image-registry.svc:5000/labproj19/reactclient3
+        name: reactclient3
+        ports:
+        - containerPort: 3000
+        resources: {}
+status: {}

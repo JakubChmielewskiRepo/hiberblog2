@@ -15,7 +15,7 @@ constructor(props) {
   handleSubmit = (event) => {
     event.preventDefault();
      console.log("title "+this.state.title)
-     fetch('https://hiberblog-api.herokuapp.com/add', {
+     fetch('http://hiberblogapi3-route-labproj19.apps.cp4apps.cloudpak.site/add', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',

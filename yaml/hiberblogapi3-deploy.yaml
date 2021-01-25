@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: hiberblogapi3-deploy
+  name: hiberblogapi3-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hiberblogapi3-deploy
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: hiberblogapi3-deploy
+    spec:
+      containers:
+      - image: image-registry.openshift-image-registry.svc:5000/labproj19/hiberblogapi3
+        name: hiberblogapi3
+        ports:
+        - containerPort: 8080
+        resources: {}
+        envFrom:
+        - secretRef:
+            name: hiberblogapi3-secret
+        - configMapRef:
+            name: hiberblogapi3-cmap
+
+status: {}
